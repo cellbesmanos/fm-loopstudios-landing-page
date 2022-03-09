@@ -24,8 +24,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [GitHub Repository](https://github.com/cellbesmanos/fm-loopstudios-landing-page)
+- Live Site URL: [Live Site](https://objective-jennings-f0f567.netlify.app/)
 
 ### Built with
 
