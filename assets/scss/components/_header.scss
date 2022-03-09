@@ -1,0 +1,39 @@
+
+.hero {
+  min-height: 80vh;
+
+  background-image: url("../../images/mobile/image-hero.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  
+  h1 {
+    width: min(100%, 70rem);
+    padding:  var(--s-df);
+
+    color: white;
+    
+    font-size: 8rem;
+    border: 1px solid white;
+  }
+}
+
+@media (max-width: 40.625em) {
+  .hero h1 {
+    font-size: min(12vw, 6rem);
+  }
+}
+
+@include breakpoint-up(medium) {
+  .hero { background-image: url("../../images/desktop/image-hero.jpg"); }
+}
+
+@include breakpoint-up(large) {
+  .hero {
+  
+    h1 {
+      font-size: 8rem;
+    }
+  }
+}
+
