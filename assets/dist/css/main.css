@@ -426,6 +426,11 @@ a:visited {
     content: url("../../images/desktop/image-fisheye.jpg");
   }
 }
+@media (min-width: 70.625em) {
+  .creations__sub-grid {
+    gap: var(--s-lg);
+  }
+}
 footer {
   padding-block: var(--s-lg);
   text-align: center;
